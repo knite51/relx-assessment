@@ -1,0 +1,8 @@
+@for (officer of officersList; track $index) {
+<div class="officers">
+  <div class="mb-3">
+    <div class="title">{{ officer.name }}</div>
+    <p class="text">{{ officer.officer_role | titlecase }}</p>
+  </div>
+</div>
+}
